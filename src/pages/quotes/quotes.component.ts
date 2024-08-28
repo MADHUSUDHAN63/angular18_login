@@ -9,11 +9,5 @@ import { NavComponent } from '../nav/nav.component';
   styleUrl: './quotes.component.css'
 })
 export class QuotesComponent {
-  // users = [
-  //   {id: 0, name: 'Sarah'},
-  //   {id: 1, name: 'Amy'},
-  //   {id: 2, name: 'Rachel'},
-  //   {id: 3, name: 'Jessica'},
-  //   {id: 4, name: 'Poornima'},
-  // ];
+
 }
