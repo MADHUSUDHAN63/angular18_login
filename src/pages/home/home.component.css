@@ -116,7 +116,6 @@ main{
 
 #entertainment h3{
   font-size: 2rem;
-  /* padding-top: 50px; */
 }
 
 #p4{
@@ -126,7 +125,6 @@ main{
 }
 
 #gift-card{
-  /* border: 1px solid black; */
   margin: 0px;
   text-align: center;
   background: #f4f4f4;
@@ -143,14 +141,12 @@ main{
 }
 
 #giftcard-img{
-  /* border: 1px solid black; */
   text-align: right;
   width: 800px;
   padding-top: 50px;
 }
 
 #giftcard-text{
-  /* border: 1px solid black; */
   text-align: left;
   width: 800px;
   padding-top: 50px;

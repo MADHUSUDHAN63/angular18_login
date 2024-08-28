@@ -61,9 +61,6 @@ export class LoginComponent {
     email: new FormControl('', [Validators.required,Validators.email]),
     password: new FormControl('', [Validators.required,Validators.minLength(8)]),
   });
-  //Validators.pattern('(?=[^A-Z]*[A-Z])(?=[^a-z]*[a-z])(?=[^0-9]*[0-9])')
-  //Validators.pattern('(?=[^A-Z]*[A-Z])(?=[^a-z]*[a-z])(?=\D*\d).{8,}')
-// localStorage.setItem("angular18Local",JSON.stringify(localArray));
 
   handleRegister(){
     alert(this.registerForm.value.username + ' | ' + this.registerForm.value.email +'|'+ this.registerForm.value.password);
