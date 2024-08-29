@@ -37,7 +37,7 @@
             <div style="display: flex;"><a href="">Forgot Password? - Support</a></div>
             <br>
             <button type="submit" [disabled]="!profileForm.valid">Login</button><br>
-            <a   (click)="isLoginView=false" >Dont have a account? Sign up</a>
+            <a   (click)="isLoginView=false" style="color: azure;" >Dont have a account? Sign up</a>
           </form>
 
        }
@@ -83,7 +83,7 @@
             <div style="display: flex;"><a href="">Forgot Password? - Support</a></div>
             <br>
             <button type="submit" [disabled]="!registerForm.valid" >Sign Up</button> <br>
-            <a   (click)="isLoginView=true" >Already have a account? Login</a>
+            <a   (click)="isLoginView=true" style="color: azure;">Already have a account? Login</a>
            </form>
       }
     </div>

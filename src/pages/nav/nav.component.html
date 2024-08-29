@@ -8,10 +8,12 @@
      <a class="navbar-brand" href="#">
          <img src="https://imaginativequotes.carrd.co/assets/images/image04.jpg?v=f0937268" alt="Imaginative" style="width:40px; border: 3px solid azure;" class="rounded-pill">
      </a>
-     <a class="navbar-brand" href="/home" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
-     <a class="navbar-brand" href="/quotes" routerLink="/quotes" routerLinkActive="active" ariaCurrentWhenActive="page">Quotes</a>
-
-     <div class="collapse navbar-collapse" id="collapsibleNavbar">
+     <a class="navbar-brand"  routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
+     <a class="navbar-brand"  routerLink="/quotes" routerLinkActive="active" ariaCurrentWhenActive="page">Quotes</a>
+     <!-- href="/quotes" href="/home" -->
+     <div class="collapse navbar-collapse" id="collapsibleNavbar" style="display: flex; justify-content: flex-end;">
+      <button type="button" class="btn btn-primary" (click)="logout()">Logout</button>
      </div>
    </div>
  </nav>
+ <router-outlet></router-outlet>
