@@ -1,5 +1,5 @@
 import { Component ,inject} from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet,  } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-nav',
